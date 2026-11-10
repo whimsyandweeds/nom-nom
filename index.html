@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nom Nom Pet Pantry | Las Vegas Community Pet Pantry</title>
+  <meta name="description" content="A community pet pantry in Las Vegas helping pets stay fed — and stay home.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@700;800&family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="icon" href="assets/images/logo.jpg">
+</head>
+<body>
+  <!-- Loading Screen -->
+  <div class="loader" id="loader">
+    <img src="assets/images/logo.jpg" alt="Nom Nom Pet Pantry" class="loader-logo">
+  </div>
+
+  <!-- Paw prints overlay -->
+  <div class="paws" id="paws" aria-hidden="true"></div>
+
+  <!-- Hero -->
+  <header class="hero" id="top">
+    <video class="bg-video" id="bgVideo" autoplay muted loop playsinline>
+      <source id="videoSource" src="assets/videos/desktop-bg.mp4" type="video/mp4">
+    </video>
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+      <img src="assets/images/logo.jpg" alt="Nom Nom Pet Pantry Logo" class="logo">
+      <h1>Nom Nom Pet Pantry</h1>
+      <p class="tagline">A community pet pantry in Las Vegas helping pets stay fed — and stay home.</p>
+      <div class="hero-buttons">
+        <a href="#how-to-help" class="btn btn-green">How to Help</a>
+        <a href="#book-pickup" class="btn btn-pink">Book a Pickup</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- How to Help -->
+  <section id="how-to-help">
+    <div class="section-inner">
+      <h2>How to Help</h2>
+      <p class="section-sub">Choose the way that feels easiest. Every little bit keeps a bowl full.</p>
+      <div class="help-cards">
+        <div class="card green">
+          <h3>Amazon Wishlist</h3>
+          <p>Shop the exact items the pantry needs most, shipped straight to Erica.</p>
+          <a href="https://www.amazon.com/registries/gl/guest-view/JMI6NZTMCVMY?ref_=cm_sw_r_apin_ggr-subnav-share_BRXEEDD6CK5BW0HMQZA1_2&language=en-US" target="_blank" rel="noopener" class="btn btn-white" style="margin-top: 1.25rem;">Amazon Wishlist →</a>
+        </div>
+        <div class="card pink">
+          <h3>GoFundMe</h3>
+          <p>Chip in toward food, supplies, and getting donations where they need to go.</p>
+          <a href="https://tr.ee/SPAve_xqhl" target="_blank" rel="noopener" class="btn btn-white" style="margin-top: 1.25rem;">GoFundMe →</a>
+        </div>
+      </div>
+      <div class="note">
+        Physical food donations are welcome too. Bring what you can — opened or unopened, dog or cat, it all helps.
+      </div>
+    </div>
+  </section>
+
+  <!-- Most Needed -->
+  <section id="most-needed" style="background: #fffdf8;">
+    <div class="section-inner">
+      <h2>Most Needed Right Now</h2>
+      <p class="section-sub">The littlest bellies are the hungriest right now.</p>
+      <div class="needed">
+        <div class="needed-box">
+          <p style="font-weight: 700; text-transform: uppercase; letter-spacing: 0.05em; font-size: 0.9rem;">Top of the list</p>
+          <h3>Kitten Food</h3>
+          <p>Anything appreciated. Wet or dry, any brand, any size.</p>
+          <ul class="bullets">
+            <li>Kitten food helps the smallest rescues grow strong.</li>
+            <li>Already have something else? It still helps — bring it along.</li>
+          </ul>
+        </div>
+        <div style="text-align: center; font-style: italic; opacity: 0.85;">
+          <p>Two tiny helpers, very ready for dinner.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Meet the Pets -->
+  <section id="meet-the-pets">
+    <div class="section-inner">
+      <h2>Meet the Pets</h2>
+      <p class="section-sub">Familiar faces from around the pantry.</p>
+      <div class="pets-grid">
+        <div class="pet-card">
+          <img src="assets/images/nami.jpg" alt="Nami">
+          <h3>Nami</h3>
+          <p>Corgi with a big heart.</p>
+        </div>
+        <div class="pet-card">
+          <img src="assets/images/kuma.jpg" alt="Kuma">
+          <h3>Kuma</h3>
+          <p>Fluffy little floof.</p>
+        </div>
+        <div class="pet-card">
+          <img src="assets/images/bowie.jpg" alt="Bowie">
+          <h3>Bowie</h3>
+          <p>Big ears, bigger personality.</p>
+        </div>
+        <div class="pet-card">
+          <img src="assets/images/senor-siete.jpg" alt="Señor Siete">
+          <h3>Señor Siete</h3>
+          <p>Chill cream cat.</p>
+        </div>
+        <div class="pet-card">
+          <img src="assets/images/hannibald.jpg" alt="Hannibald Lecter">
+          <h3>Hannibald Lecter</h3>
+          <p>Sphynx in style.</p>
+        </div>
+        <div class="pet-card">
+          <img src="assets/images/winnie.jpg" alt="Winnie">
+          <h3>Winnie</h3>
+          <p>Sweet cream kitty.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Donation Photos -->
+  <section id="donations" style="background: #fffdf8;">
+    <div class="section-inner">
+      <h2>Donation Photos</h2>
+      <p class="section-sub">Real donations, ready to go — from full trunks to shelves sorted for pickup.</p>
+      <div class="gallery">
+        <img src="assets/images/IMG_6379.jpeg" alt="Stacked cat food donations" data-full="assets/images/IMG_6379.jpeg">
+        <img src="assets/images/IMG_7428.jpeg" alt="Boxes and cans of pet food" data-full="assets/images/IMG_7428.jpeg">
+        <img src="assets/images/IMG_7829.jpeg" alt="Car trunk full of Fancy Feast and more" data-full="assets/images/IMG_7829.jpeg">
+        <img src="assets/images/IMG_7859.jpeg" alt="More donations loaded up" data-full="assets/images/IMG_7859.jpeg">
+        <img src="assets/images/IMG_8047.jpeg" alt="Litter and food supplies" data-full="assets/images/IMG_8047.jpeg">
+        <img src="assets/images/IMG_8517.jpeg" alt="Donations at the door" data-full="assets/images/IMG_8517.jpeg">
+        <img src="assets/images/IMG_8519.jpeg" alt="Pigeon feed and cat food stacks" data-full="assets/images/IMG_8519.jpeg">
+        <img src="assets/images/IMG_8549.jpeg" alt="Bags of food and litter in the car" data-full="assets/images/IMG_8549.jpeg">
+      </div>
+      <p style="text-align: center; margin-top: 1.5rem; font-weight: 600;">Donations in action.</p>
+    </div>
+  </section>
+
+  <!-- Book a Pickup -->
+  <section id="book-pickup">
+    <div class="section-inner">
+      <h2>Book a Pickup</h2>
+      <div class="book-grid">
+        <div>
+          <p style="margin-bottom: 1.5rem; font-size: 1.1rem;">Pick a time that works for you. Erica will share the meet-up spot after you book — always a public place.</p>
+          <ol class="steps">
+            <li><span class="step-num">1</span> Pick a pickup time that works for you.</li>
+            <li><span class="step-num">2</span> Book it, so she knows you are coming.</li>
+            <li><span class="step-num">3</span> Meet up, grab food, and head home.</li>
+          </ol>
+        </div>
+        <div class="book-box">
+          <h3 style="margin-bottom: 1rem;">Ready when you are</h3>
+          <p style="margin-bottom: 1.5rem;">Please book so she knows you are coming — it cuts down on no-shows.</p>
+          <a href="https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ3y-N-z9w4dTXMLea8lJf_IqseQr91plh1sXA1FTK18fsoVAYXGEvNM6UNKbk8ikUAglf0DDqfj" target="_blank" rel="noopener" class="btn btn-white">Book a Pickup →</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Pantry Questionnaire -->
+  <section id="questionnaire" style="background: #fffdf8;">
+    <div class="section-inner">
+      <h2>Pantry Questionnaire</h2>
+      <p class="section-sub">A quick form before pickup, so Erica can have the right food ready for you.</p>
+      <div class="form-wrap">
+        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfGqibbxhqaDE6zPiigQ19habwI2Hl4m7mXWnmJKNsHkrcBEg/viewform?embedded=true" title="Pantry Questionnaire"></iframe>
+      </div>
+    </div>
+  </section>
+
+  <!-- Let's Create Together -->
+  <section id="collabs">
+    <div class="section-inner">
+      <div class="collab">
+        <div>
+          <h2 style="text-align: left;">Let's Create Together</h2>
+          <p style="margin: 1rem 0 1.5rem; font-size: 1.1rem;">A small collabs spot for brands that want to help the pantry do more good.</p>
+          <ul class="bullets">
+            <li>Share an idea that puts pets and their people first.</li>
+            <li>Keep it kind, useful, and true to the pantry.</li>
+            <li>Start the conversation by email — that’s the best way to reach Erica.</li>
+          </ul>
+        </div>
+        <div class="book-box">
+          <h3 style="margin-bottom: 1rem;">For Brands</h3>
+          <p style="margin-bottom: 1rem;">Interested in collaborating? Send a note to:</p>
+          <a href="mailto:ericasfreakyfriends@gmail.com" class="btn btn-white" style="margin-bottom: 1rem;">ericasfreakyfriends@gmail.com</a>
+          <p style="font-size: 0.95rem; opacity: 0.85;">Email only. No UGC site link.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Her Story -->
+  <section id="her-story" style="background: #fffdf8;">
+    <div class="section-inner">
+      <h2>Her Story</h2>
+      <p class="section-sub">Nom Nom Pet Pantry started with a childhood memory — and a promise to pass the kindness on.</p>
+      <p style="text-align: center; background: var(--pink); display: inline-block; padding: 0.75rem 1.5rem; border-radius: 50px; font-weight: 700; margin-bottom: 2rem;">Paying it forward, one full bowl at a time.</p>
+      <div class="timeline">
+        <div class="timeline-item">
+          <strong>Phoenix</strong>
+          <span>Grew up in Phoenix. Her dogs got monthly food from a pet pantry.</span>
+        </div>
+        <div class="timeline-item">
+          <strong>From age 16</strong>
+          <span>Volunteered at a no-kill shelter, learning what steady care looks like.</span>
+        </div>
+        <div class="timeline-item">
+          <strong>About 3 years</strong>
+          <span>With the Las Vegas Trauma Intervention Program, showing up for people in hard moments.</span>
+        </div>
+        <div class="timeline-item">
+          <strong>Now</strong>
+          <span>Busy tech career by day, running the pantry in her free time to pay it forward.</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact">
+    <div class="section-inner">
+      <h2>Contact</h2>
+      <p class="section-sub">Questions, donations, or pickups — reach out, and Erica will get back to you.</p>
+      <div class="contact-grid">
+        <div class="contact-card">
+          <h3>EMAIL</h3>
+          <a href="mailto:ericasfreakyfriends@gmail.com">ericasfreakyfriends@gmail.com</a>
+        </div>
+        <div class="contact-card">
+          <h3>TIKTOK</h3>
+          <a href="https://www.tiktok.com/@botanicalbaby" target="_blank" rel="noopener">@botanicalbaby</a>
+        </div>
+        <div class="contact-card">
+          <h3>INSTAGRAM</h3>
+          <a href="https://www.instagram.com/botanical.baby/" target="_blank" rel="noopener">@botanical.baby</a>
+        </div>
+      </div>
+      <p style="text-align: center; font-weight: 600;">Las Vegas, NV — general area only. No street address anywhere.</p>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p><strong>Whimsy & Weeds</strong></p>
+    <p>Pro-bono showcase. Made with care for Nom Nom Pet Pantry.</p>
+  </footer>
+
+  <!-- Lightbox -->
+  <div class="lightbox" id="lightbox">
+    <button class="lightbox-close" id="lightboxClose">&times;</button>
+    <img id="lightboxImg" src="" alt="">
+  </div>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
