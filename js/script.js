@@ -62,7 +62,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const lightbox = document.getElementById('lightbox');
   const lightboxImg = document.getElementById('lightboxImg');
   const lightboxClose = document.getElementById('lightboxClose');
-  const galleryImgs = document.querySelectorAll('.gallery img');
+  const galleryImgs = document.querySelectorAll('.gallery-scroll img');
 
   galleryImgs.forEach(img => {
     img.addEventListener('click', () => {
